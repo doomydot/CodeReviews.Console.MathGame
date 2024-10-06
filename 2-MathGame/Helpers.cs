@@ -7,12 +7,6 @@ internal class Helpers
     internal static List<Game> games = [];
     
     internal static void ViewGameList() {
-        /*
-        var gamesToPrint = games
-            .Where(g => g.Date >= DateTime.Now.AddDays(-7) && g.Score > 3)
-            .OrderByDescending(x => x.Score);
-        */
-        
         Console.Clear();
         Console.WriteLine("Game History");
         Console.WriteLine("-----------------------");
