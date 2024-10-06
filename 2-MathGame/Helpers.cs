@@ -25,7 +25,6 @@ internal class Helpers
     }
     
     internal static void AddToHistory(int score, GameType gameType) {
-        //games.Add(new Game(score, DateTime.Now, gameType));
         games.Add(new Game(DateTime.Now, gameType, score));
     }
 

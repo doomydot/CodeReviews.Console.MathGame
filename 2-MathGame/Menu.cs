@@ -47,10 +47,7 @@ internal class Menu
                     Console.WriteLine("Invalid Input");
                     break;
             }
-
         
         }while (!isGameOver);
-    
-    
     }
 }
